@@ -1,29 +1,14 @@
 @import 'variables';
+@import 'top-menu';
+@import 'header';
 
 a {
     text-decoration: none;
 }
 
-
 .flex-space-between {
     display: flex;
     justify-content: space-between;
-}
-
-.top-menu {
-    height: 30px;
-    background: rgb(246, 246, 246);
-}
-
-.top-menu a,
-.top-menu select,
-.top-menu span {
-    color: rgb(126, 126, 126);
-}
-
-.top-menu select {
-    background: rgb(246, 246, 246);
-    border: none;
 }
 
 .width-site {
@@ -31,16 +16,3 @@ a {
     margin: 0 auto;
 }
 
-.left,
-.right {
-    margin: 5px 0;
-}
-
-.left a {
-    margin: 0 20px;
-}
-
-.right select,
-span {
-    margin-left: 20px;
-}

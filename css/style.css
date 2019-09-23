@@ -1,9 +1,5 @@
-a {
-  text-decoration: none; }
-
-.flex-space-between {
-  display: flex;
-  justify-content: space-between; }
+* {
+  margin: 0; }
 
 .top-menu {
   height: 30px;
@@ -15,20 +11,57 @@ a {
   color: #7e7e7e; }
 
 .top-menu select {
+  padding-right: 10px;
   background: #f6f6f6;
-  border: none; }
+  border: none;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+  background: url(../img/select-arrow.png) no-repeat 96% 50%; }
+
+.top-menu .left,
+.top-menu .right {
+  margin: 5px 0; }
+
+.top-menu .left a {
+  margin: 0 20px; }
+
+.top-menu .right select,
+span {
+  margin-left: 20px; }
+
+.header {
+  margin: 15px 0; }
+
+.header .left {
+  margin-top: 23px; }
+
+.header .left a {
+  margin-left: 20px;
+  font-size: 44px;
+  color: #444444;
+  font-weight: bold;
+  background: url(../img/logo.png) no-repeat 0%; }
+
+.header .left span {
+  margin-left: 60px; }
+
+.header .find {
+  margin-bottom: 25px;
+  margin-right: 0px;
+  text-align: right; }
+
+.header .right a {
+  margin-left: 50px;
+  color: #565656; }
+
+a {
+  text-decoration: none; }
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between; }
 
 .width-site {
   width: 1170px;
   margin: 0 auto; }
-
-.left,
-.right {
-  margin: 5px 0; }
-
-.left a {
-  margin: 0 20px; }
-
-.right select,
-span {
-  margin-left: 20px; }

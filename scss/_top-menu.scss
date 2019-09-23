@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+}
+.top-menu {
+    height: 30px;
+    background: rgb(246, 246, 246);
+}
+
+.top-menu a,
+.top-menu select,
+.top-menu span {
+    color: rgb(126, 126, 126);
+}
+
+.top-menu select {
+    padding-right: 10px;
+    background: rgb(246, 246, 246);
+    border: none;    
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background: url(../img/select-arrow.png) no-repeat 96% 50%;
+}
+
+.top-menu .left,
+.top-menu .right {
+    margin: 5px 0;
+}
+
+.top-menu .left a {
+    margin: 0 20px;
+}
+
+.top-menu .right select,
+span {
+    margin-left: 20px;
+}
