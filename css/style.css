@@ -1,0 +1,34 @@
+a {
+  text-decoration: none; }
+
+.flex-space-between {
+  display: flex;
+  justify-content: space-between; }
+
+.top-menu {
+  height: 30px;
+  background: #f6f6f6; }
+
+.top-menu a,
+.top-menu select,
+.top-menu span {
+  color: #7e7e7e; }
+
+.top-menu select {
+  background: #f6f6f6;
+  border: none; }
+
+.width-site {
+  width: 1170px;
+  margin: 0 auto; }
+
+.left,
+.right {
+  margin: 5px 0; }
+
+.left a {
+  margin: 0 20px; }
+
+.right select,
+span {
+  margin-left: 20px; }

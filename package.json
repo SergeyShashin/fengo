@@ -1,0 +1,26 @@
+{
+  "name": "fengo",
+  "version": "1.0.0",
+  "description": "adaptive layout",
+  "main": "index.js",
+  "scripts": {
+    "gulp": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SergeyShashin/fengo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SergeyShashin/fengo/issues"
+  },
+  "homepage": "https://github.com/SergeyShashin/fengo#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "browser-sync": "^2.26.7",
+    "gulp": "^4.0.2",
+    "gulp-sass": "^4.0.2"
+  }
+}
