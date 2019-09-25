@@ -129,6 +129,58 @@ span {
 .round1 {
   background: white; }
 
+.advertising {
+  background: #f3f3f3; }
+
+.wrap-exclusive-jewelry-accessories-lookbook {
+  margin: 60px 30px 60px 0; }
+
+.exclusive,
+.hottest,
+.whats,
+.jewelry,
+.accessories,
+.lookbook {
+  background: #cccccc; }
+
+.exclusive {
+  width: 770px;
+  height: 420px;
+  margin-bottom: 30px;
+  text-align: center; }
+
+.wrap-text-exclusive {
+  margin: 10% auto;
+  width: 500px;
+  height: 200px;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+  color: white; }
+
+.text-exclusive {
+  font-size: 35px;
+  margin: 10%; }
+
+.exclusive a {
+  color: white; }
+
+.advertising .control-left,
+.advertising .control-right {
+  width: 40px;
+  height: 40px; }
+
+.advertising .control-left {
+  position: absolute;
+  right: 90%; }
+
+.advertising .control-right {
+  position: absolute;
+  left: 90%; }
+
+.advertising .arrow-left,
+.advertising .arrow-right {
+  margin: 35% auto; }
+
 a {
   text-decoration: none; }
 
