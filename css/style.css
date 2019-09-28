@@ -243,13 +243,93 @@ span {
   .lookbook .round {
     margin-top: 10px; }
 
+.wrap-hottest-what {
+  margin-bottom: 60px; }
+
+.products {
+  background: white; }
+  .products .menu {
+    margin: 60px 0;
+    text-align: center; }
+    .products .menu a {
+      margin-right: 60px;
+      color: #999999; }
+    .products .menu .active {
+      text-decoration: underline;
+      color: #444444; }
+  .products .card {
+    width: 270px;
+    height: 350px;
+    background: #cccccc;
+    margin-bottom: 170px; }
+    .products .card .discount,
+    .products .card .new,
+    .products .card .out {
+      margin: 10px 0 260px -3px;
+      padding: 10px 30px;
+      width: 35px;
+      border: 3px solid #cf4647;
+      color: #cf4647;
+      font-weight: bold; }
+    .products .card .color1,
+    .products .card .color2,
+    .products .card .color3 {
+      width: 20px;
+      height: 20px;
+      border: 1px solid white;
+      margin-left: 10px; }
+    .products .card .color1 {
+      background: #0e0c0f; }
+    .products .card .color2 {
+      background: #202a4e; }
+    .products .card .color3 {
+      background: #923349; }
+    .products .card .new {
+      border: 3px solid #524656;
+      color: #524656; }
+    .products .card .out {
+      width: 65px;
+      padding: 10px;
+      border: 3px solid #999999;
+      color: #999999; }
+    .products .card .text-name,
+    .products .card .price {
+      margin-top: 25px; }
+      .products .card .text-name p,
+      .products .card .price p {
+        margin-top: 10px; }
+    .products .card .text-name {
+      color: #565656; }
+    .products .card .add-to-bag {
+      border: 2px solid #444444;
+      padding: 10px 0 10px 35px;
+      margin: 10px 0;
+      width: 270px;
+      color: #444444; }
+    .products .card .add-to-wish,
+    .products .card .add-to-compare {
+      color: #333333; }
+
 a {
   text-decoration: none; }
 
 .flex-space-between {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  flex-wrap: wrap; }
+
+.flex-left {
+  display: flex;
+  justify-content: left; }
+
+.flex-space-center {
+  display: flex;
+  justify-content: center; }
 
 .width-site {
   width: 1170px;
   margin: 0 auto; }
+
+.text-decoration-line-through {
+  text-decoration: line-through;
+  color: #999999; }
