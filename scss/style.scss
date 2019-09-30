@@ -32,3 +32,9 @@ a {
     text-decoration: line-through;
     color: rgb(153, 153, 153);
 }
+
+@media screen and (max-width:940px) {
+    .width-site {
+        width: $width940;
+    }
+}

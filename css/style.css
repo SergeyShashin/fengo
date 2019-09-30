@@ -55,6 +55,12 @@ span {
   margin-left: 50px;
   color: #565656; }
 
+@media screen and (max-width: 940px) {
+  .header .right {
+    margin-right: 10px; }
+  .header .right a {
+    margin-left: 30px; } }
+
 .slider-check-your {
   background: #cccccc;
   height: 1070px;
@@ -128,6 +134,17 @@ span {
 
 .round1 {
   background: white; }
+
+@media screen and (max-width: 940px) {
+  .slider-check-your {
+    height: 546px; }
+    .slider-check-your .text {
+      margin-right: 100px;
+      margin-top: 5%; }
+    .slider-check-your .round {
+      margin-top: 5%; }
+  .control-right {
+    left: 94%; } }
 
 .advertising {
   background: #f3f3f3; }
@@ -246,6 +263,51 @@ span {
 .wrap-hottest-what {
   margin-bottom: 60px; }
 
+@media screen and (max-width: 940px) {
+  .wrap-exclusive-jewelry-accessories-lookbook {
+    margin: 60px 20px 60px 0; }
+  .exclusive {
+    width: 620px;
+    height: 346px;
+    margin-bottom: 30px;
+    text-align: center; }
+  .wrap-text-exclusive {
+    width: 400px;
+    height: 200px; }
+  .text-exclusive {
+    font-size: 35px;
+    margin: 10% auto; }
+  .hottest {
+    width: 300px;
+    height: 569px; }
+  .jewelry {
+    width: 300px;
+    height: 203px; }
+    .jewelry h2 {
+      font-size: 30px;
+      padding-top: 20%; }
+  .accessories {
+    margin-top: 20px;
+    width: 300px;
+    height: 203px; }
+    .accessories h2 {
+      font-size: 25px;
+      padding-top: 25%; }
+    .accessories h3 {
+      margin-bottom: 15%; }
+  .lookbook {
+    width: 300px;
+    height: 426px; }
+    .lookbook .text-lookbook {
+      padding-top: 180px; }
+    .lookbook p {
+      margin: 15px 0; }
+    .lookbook .text-autumn {
+      margin-bottom: 90px; }
+  .what {
+    width: 300px;
+    height: 203px; } }
+
 .products {
   background: white; }
   .products .menu {
@@ -310,6 +372,10 @@ span {
     .products .card .add-to-compare {
       color: #333333; }
 
+@media screen and (max-width: 940px) {
+  .display-none {
+    display: none; } }
+
 a {
   text-decoration: none; }
 
@@ -333,3 +399,7 @@ a {
 .text-decoration-line-through {
   text-decoration: line-through;
   color: #999999; }
+
+@media screen and (max-width: 940px) {
+  .width-site {
+    width: 940px; } }

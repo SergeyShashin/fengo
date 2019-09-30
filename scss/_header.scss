@@ -28,3 +28,15 @@
     margin-left: 50px;
     color: rgb(86, 86, 86);
 }
+
+@media screen and (max-width:940px){
+    .header .right{
+        margin-right: 10px; 
+    }
+
+   
+    .header .right a {
+        margin-left: 30px;     
+        
+    }
+}

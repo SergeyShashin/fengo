@@ -86,3 +86,23 @@
 .round1{
     background: rgb(255, 255, 255);
 }
+
+@media screen and (max-width:940px){
+    .slider-check-your{
+        height: 546px;
+        .text {
+            margin-right: 100px;
+            margin-top:5%;  
+        }
+
+        .round{
+            
+            margin-top: 5%;
+        }
+    }
+
+   
+    .control-right {        
+        left: 94%;
+    }
+}
