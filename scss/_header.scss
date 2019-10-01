@@ -1,21 +1,21 @@
-
-.header{
+.header {
     margin: 15px 0;
 }
 
-.header .left{
-    margin-top: 23px; 
+.header .left {
+    margin-top: 23px;
 }
 
 .header .left a {
-    margin-left: 20px;     
-    font-size: 44px;    
+    margin-left: 20px;
+    font-size: 44px;
     color: rgb(68, 68, 68);
     font-weight: bold;
     background: url(../img/logo.png) no-repeat 0%;
 }
+
 .header .left span {
-    margin-left: 60px; 
+    margin-left: 60px;
 }
 
 .header .find {
@@ -29,14 +29,35 @@
     color: rgb(86, 86, 86);
 }
 
-@media screen and (max-width:940px){
-    .header .right{
-        margin-right: 10px; 
+@media screen and (max-width:$width940) {
+    .header .right {
+        margin-right: 10px;
     }
 
-   
+
     .header .right a {
-        margin-left: 30px;     
-        
+        margin-left: 30px;
+
     }
+}
+
+@media screen and (max-width:$width724) {
+    .header {
+        font-size: 14px;
+        .left {
+            margin-top: 0;
+            margin-right: 0;
+        }
+
+        .right{
+            margin-top: 20px;
+            flex: 2;
+        }
+
+        .right a {
+            margin-left: 10px;
+        }
+              
+    }
+
 }

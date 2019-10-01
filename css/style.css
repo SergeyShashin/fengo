@@ -30,6 +30,23 @@
 span {
   margin-left: 20px; }
 
+@media screen and (max-width: 724px) {
+  .top-menu {
+    font-size: 14px; }
+    .top-menu .left {
+      margin-left: 10px; }
+    .top-menu .left a {
+      margin-left: 0;
+      margin-right: 5px; }
+    .top-menu .right {
+      margin-left: 0;
+      margin-right: 10px; }
+    .top-menu .right select {
+      margin-left: 0;
+      margin-right: 5px; }
+    .top-menu span {
+      margin-left: 5px; } }
+
 .header {
   margin: 15px 0; }
 
@@ -60,6 +77,18 @@ span {
     margin-right: 10px; }
   .header .right a {
     margin-left: 30px; } }
+
+@media screen and (max-width: 724px) {
+  .header {
+    font-size: 14px; }
+    .header .left {
+      margin-top: 0;
+      margin-right: 0; }
+    .header .right {
+      margin-top: 20px;
+      flex: 2; }
+    .header .right a {
+      margin-left: 10px; } }
 
 .slider-check-your {
   background: #cccccc;
@@ -135,7 +164,7 @@ span {
 .round1 {
   background: white; }
 
-@media screen and (max-width: 940px) {
+@media screen and (max-width: 1170px) {
   .slider-check-your {
     height: 546px; }
     .slider-check-your .text {
@@ -145,6 +174,21 @@ span {
       margin-top: 5%; }
   .control-right {
     left: 94%; } }
+
+@media screen and (max-width: 1170px) {
+  .slider-check-your {
+    height: 428px; }
+    .slider-check-your .control-right {
+      left: 92%; }
+    .slider-check-your .text {
+      margin-right: 100px;
+      margin-top: 5%; }
+    .slider-check-your .text-check-your {
+      font-size: 25px; }
+    .slider-check-your .text-autumn-style {
+      font-size: 70px; }
+    .slider-check-your .text-all-trends {
+      font-size: 30px; } }
 
 .advertising {
   background: #f3f3f3; }
@@ -308,6 +352,69 @@ span {
     width: 300px;
     height: 203px; } }
 
+@media screen and (max-width: 724px) {
+  .wrap-exclusive-jewelry-accessories-lookbook {
+    margin: 30px 20px 30px 0; }
+  .exclusive {
+    width: 476px;
+    height: 266px;
+    margin-bottom: 20px;
+    text-align: center; }
+  .wrap-text-exclusive {
+    width: 300px;
+    height: 150px; }
+  .text-exclusive {
+    font-size: 25px;
+    margin: 10% auto; }
+  .hottest {
+    width: 228px;
+    height: 432px;
+    margin-top: 30px; }
+    .hottest h2 {
+      font-size: 18px; }
+    .hottest h3 {
+      font-size: 16px;
+      margin-bottom: 270px; }
+  .jewelry {
+    width: 228px;
+    height: 154px; }
+    .jewelry h2 {
+      font-size: 20px;
+      padding-top: 15%; }
+    .jewelry h3 {
+      margin-bottom: 10%; }
+    .jewelry a {
+      font-size: 14px; }
+  .accessories {
+    margin-top: 20px;
+    width: 228px;
+    height: 154px; }
+    .accessories h2 {
+      font-size: 18px;
+      padding-top: 25%; }
+    .accessories h3 {
+      font-size: 16px;
+      margin-bottom: 10%; }
+    .accessories a {
+      font-size: 14px; }
+  .lookbook {
+    width: 228px;
+    height: 328px; }
+    .lookbook .text-lookbook {
+      padding-top: 100px; }
+    .lookbook p {
+      margin: 15px 0; }
+    .lookbook .text-autumn {
+      margin-bottom: 60px; }
+  .what {
+    margin-top: 20px;
+    width: 228px;
+    height: 162px; }
+    .what h2 {
+      padding-top: 50px; }
+  .wrap-hottest-what {
+    margin-bottom: 30px; } }
+
 .products {
   background: white; }
   .products .menu {
@@ -376,6 +483,22 @@ span {
   .display-none {
     display: none; } }
 
+@media screen and (max-width: 724px) {
+  .products .menu {
+    margin: 30px 0; }
+  .products .card {
+    width: 228px;
+    height: 296px;
+    margin-bottom: 170px; }
+    .products .card .discount,
+    .products .card .new,
+    .products .card .out {
+      margin: 10px 0 200px -3px; }
+    .products .card .add-to-bag {
+      padding: 10px 0 10px 10px;
+      margin: 10px 0;
+      width: 220px; } }
+
 a {
   text-decoration: none; }
 
@@ -403,3 +526,7 @@ a {
 @media screen and (max-width: 940px) {
   .width-site {
     width: 940px; } }
+
+@media screen and (max-width: 724px) {
+  .width-site {
+    width: 724px; } }

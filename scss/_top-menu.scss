@@ -1,6 +1,7 @@
-*{
+* {
     margin: 0;
 }
+
 .top-menu {
     height: 30px;
     background: rgb(246, 246, 246);
@@ -15,7 +16,7 @@
 .top-menu select {
     padding-right: 10px;
     background: rgb(246, 246, 246);
-    border: none;    
+    border: none;
     -moz-appearance: none;
     -webkit-appearance: none;
     appearance: none;
@@ -34,4 +35,34 @@
 .top-menu .right select,
 span {
     margin-left: 20px;
+}
+
+
+
+@media screen and (max-width:$width724) {
+
+    .top-menu {
+        font-size: 14px;
+        .left{
+            margin-left: 10px;
+        }               
+
+       .left a {
+            margin-left: 0;            
+            margin-right: 5px;            
+        }
+        .right{
+            margin-left: 0;
+            margin-right: 10px;
+        }
+
+       .right select {
+            margin-left: 0;            
+            margin-right: 5px;       
+        }
+
+        span{
+            margin-left: 5px;
+        }
+    }
 }

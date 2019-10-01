@@ -87,7 +87,7 @@
     background: rgb(255, 255, 255);
 }
 
-@media screen and (max-width:940px){
+@media screen and (max-width:$width1170){
     .slider-check-your{
         height: 546px;
         .text {
@@ -100,9 +100,34 @@
             margin-top: 5%;
         }
     }
-
    
     .control-right {        
         left: 94%;
+    }
+}
+
+@media screen and (max-width:$width1170){
+    .slider-check-your{
+        height: 428px;
+        .control-right {        
+            left: 92%;
+        }
+
+        .text {
+            margin-right: 100px;
+            margin-top:5%;  
+        }
+        
+        .text-check-your {
+            font-size: 25px;            
+        }
+        
+        .text-autumn-style {
+            font-size: 70px;            
+        }
+        
+        .text-all-trends {
+            font-size: 30px;            
+        }
     }
 }

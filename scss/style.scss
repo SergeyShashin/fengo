@@ -33,8 +33,13 @@ a {
     color: rgb(153, 153, 153);
 }
 
-@media screen and (max-width:940px) {
+@media screen and (max-width:$width940) {
     .width-site {
         width: $width940;
+    }
+}
+@media screen and (max-width:$width724) {
+    .width-site {
+        width: $width724;
     }
 }
