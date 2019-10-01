@@ -43,3 +43,8 @@ a {
         width: $width724;
     }
 }
+@media screen and (max-width:$width280) {
+    .width-site {
+        width: $width280;
+    }
+}

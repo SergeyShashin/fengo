@@ -351,3 +351,61 @@
         margin-bottom: 30px;
     }
 }
+
+@media screen and (max-width:$width280) {
+    .advertising {
+        .exclusive {
+            width: 280px;
+            height: 156px;
+        }
+
+        .wrap-text-exclusive {
+            margin: 5% auto;
+            width: 200px;
+            height: 100px;
+        }
+
+        .text-exclusive {
+            font-size: 18px;
+            margin: 5% 2%;
+        }
+
+        .control-left,
+        .control-right {
+            width: 20px;
+            height: 20px;
+        }
+
+        .arrow-left,
+        .arrow-right {
+            width: 5px;
+            height: 5px;
+        }
+
+
+        .wrap-jewelry-accessories {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .wrap-jewelry-accessories-lookbook{
+            justify-content: center;
+        }
+
+        .lookbook{
+            margin-top: 20px;
+        }
+
+        .wrap-hottest-what{           
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+        .hottest{
+            margin-top: 0;
+        }
+
+
+    }
+}

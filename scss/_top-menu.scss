@@ -43,26 +43,34 @@ span {
 
     .top-menu {
         font-size: 14px;
-        .left{
-            margin-left: 10px;
-        }               
 
-       .left a {
-            margin-left: 0;            
-            margin-right: 5px;            
+        .left {
+            margin-left: 10px;
         }
-        .right{
+
+        .left a {
+            margin-left: 0;
+            margin-right: 5px;
+        }
+
+        .right {
             margin-left: 0;
             margin-right: 10px;
         }
 
-       .right select {
-            margin-left: 0;            
-            margin-right: 5px;       
+        .right select {
+            margin-left: 0;
+            margin-right: 5px;
         }
 
-        span{
+        span {
             margin-left: 5px;
         }
+    }
+}
+
+@media screen and (max-width:$width280) {
+    .top-menu {
+        display: none;
     }
 }

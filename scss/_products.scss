@@ -129,3 +129,25 @@
 
     }
 }
+
+@media screen and (max-width:$width280) {
+    .products {
+        .menu{
+            margin-left: 25%;
+            margin-left: 25%;
+            
+            line-height: 30px;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;            
+            a{
+                width: 100%;
+            }
+        }
+        .card{
+            margin-left: 2%;
+            margin-right: 2%;
+            width: 96%;
+        }
+    }
+}

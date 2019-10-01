@@ -47,6 +47,10 @@ span {
     .top-menu span {
       margin-left: 5px; } }
 
+@media screen and (max-width: 280px) {
+  .top-menu {
+    display: none; } }
+
 .header {
   margin: 15px 0; }
 
@@ -89,6 +93,15 @@ span {
       flex: 2; }
     .header .right a {
       margin-left: 10px; } }
+
+@media screen and (max-width: 280px) {
+  .header .find input {
+    margin-left: 10px;
+    width: 95%;
+    line-height: 30px; }
+  .header .right a {
+    margin-left: 20px;
+    line-height: 20px; } }
 
 .slider-check-your {
   background: #cccccc;
@@ -189,6 +202,10 @@ span {
       font-size: 70px; }
     .slider-check-your .text-all-trends {
       font-size: 30px; } }
+
+@media screen and (max-width: 280px) {
+  .slider-check-your {
+    display: none; } }
 
 .advertising {
   background: #f3f3f3; }
@@ -415,6 +432,40 @@ span {
   .wrap-hottest-what {
     margin-bottom: 30px; } }
 
+@media screen and (max-width: 280px) {
+  .advertising .exclusive {
+    width: 280px;
+    height: 156px; }
+  .advertising .wrap-text-exclusive {
+    margin: 5% auto;
+    width: 200px;
+    height: 100px; }
+  .advertising .text-exclusive {
+    font-size: 18px;
+    margin: 5% 2%; }
+  .advertising .control-left,
+  .advertising .control-right {
+    width: 20px;
+    height: 20px; }
+  .advertising .arrow-left,
+  .advertising .arrow-right {
+    width: 5px;
+    height: 5px; }
+  .advertising .wrap-jewelry-accessories {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .advertising .wrap-jewelry-accessories-lookbook {
+    justify-content: center; }
+  .advertising .lookbook {
+    margin-top: 20px; }
+  .advertising .wrap-hottest-what {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+  .advertising .hottest {
+    margin-top: 0; } }
+
 .products {
   background: white; }
   .products .menu {
@@ -499,6 +550,21 @@ span {
       margin: 10px 0;
       width: 220px; } }
 
+@media screen and (max-width: 280px) {
+  .products .menu {
+    margin-left: 25%;
+    margin-left: 25%;
+    line-height: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; }
+    .products .menu a {
+      width: 100%; }
+  .products .card {
+    margin-left: 2%;
+    margin-right: 2%;
+    width: 96%; } }
+
 a {
   text-decoration: none; }
 
@@ -530,3 +596,7 @@ a {
 @media screen and (max-width: 724px) {
   .width-site {
     width: 724px; } }
+
+@media screen and (max-width: 280px) {
+  .width-site {
+    width: 280px; } }
